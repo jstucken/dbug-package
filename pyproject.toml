@@ -1,18 +1,18 @@
-[build-system]
-requires = ["setuptools>=61.0"]
-build-backend = "setuptools.build_meta"
-
-[project]
-name = "dbug_package"
-version = "0.0.1"
-authors = [
-  { name="Jonathan Stucken", email="jstucken@yahoo.com" },
-]
+[tool.poetry]
+name = "dbug-package"
+version = "0.1.0"
 description = "A minimal debug package for printing out things nicely"
+authors = ["Jonathan Stucken <jstucken@yahoo.com>"]
 readme = "README.md"
-requires-python = ">=3.7"
-classifiers = [
-  "Programming Language :: Python :: 3",
-  "License :: OSI Approved :: MIT License",
-  "Operating System :: OS Independent",
-]
+packages = [{include = "dbug_package", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+rich = "^13.3.3"
+typer = "^0.7.0"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
