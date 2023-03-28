@@ -16,3 +16,8 @@ classifiers = [
   "License :: OSI Approved :: MIT License",
   "Operating System :: OS Independent",
 ]
+requires = [
+  "rich>=4.3.0",
+  "typer>=0.3.2",
+  "python-dotenv>=0.19"
+]
