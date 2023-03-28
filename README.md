@@ -17,7 +17,7 @@ Or add the following to your `requirements.txt`:
 
     dbug-package @ git+ssh://git@github.com/jstucken/dbug-package
 
-**Install using [Poetry](https://python-poetry.org/):**
+**Add to an existing [Poetry](https://python-poetry.org/) project:**
 
     poetry add git+ssh://git@github.com/jstucken/dbug-package.git
     poetry update
