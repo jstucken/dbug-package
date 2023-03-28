@@ -29,11 +29,9 @@ Or manually add the following to your `pyproject.toml` file:
 
 # Usage
 
-Import with:
+Import and call within your script like this:
 
     from dbug_package.dbug import Dbug as dbug
-
-Then call within your script like this:
 
     # an example list
     names = ['bill', 'mary']
