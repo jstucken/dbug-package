@@ -19,6 +19,4 @@ classifiers = [
 requires = [
   "wheel>=0.34",
   "rich>=4.3.0",
-  "typer>=0.3.2",
-  "python-dotenv>=0.19"
 ]
