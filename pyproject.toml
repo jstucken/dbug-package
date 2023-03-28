@@ -19,4 +19,6 @@ classifiers = [
 
 [tool.poetry.dependencies]
 python = "^3.7"
-cowsay = "^3.0"
+rich = "^4.3.0"
+typer = "^0.3.2"
+python-dotenv = "^0.19"
