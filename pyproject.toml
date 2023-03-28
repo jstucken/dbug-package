@@ -17,6 +17,5 @@ classifiers = [
   "Operating System :: OS Independent",
 ]
 requires = [
-  "wheel>=0.34",
-  "rich>=4.3.0",
+  "wheel>=0.34"
 ]
