@@ -19,13 +19,13 @@ Or add the following to your `requirements.txt`:
 
 **Add to an existing [Poetry](https://python-poetry.org/) project:**
 
-    poetry add git+ssh://git@github.com/jstucken/dbug-package.git
+    poetry add git+https://git@github.com/jstucken/dbug-package.git
     poetry update
 
 Or manually add the following to your `pyproject.toml` file:
 
     [tool.poetry.dependencies]
-    dbug-package = { git = "ssh://git@github.com/jstucken/dbug-package.git" }
+    dbug-package = { git = "https://git@github.com/jstucken/dbug-package.git" }
 
 # Usage
 
