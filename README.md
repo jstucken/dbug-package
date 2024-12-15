@@ -20,7 +20,6 @@ Or add the following to your `requirements.txt`:
 **Add to an existing [Poetry](https://python-poetry.org/) project:**
 
     poetry add git+https://git@github.com/jstucken/dbug-package.git
-    poetry update
 
 Or manually add the following to your `pyproject.toml` file:
 
